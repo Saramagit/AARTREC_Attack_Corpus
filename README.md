@@ -233,10 +233,10 @@ If you use this corpus in your research, please cite:
 ```bibtex
 @dataset{aartrec2026,
   title={AARTREC: Adversarial Attack Repository for Testing Robustness of Recommender Systems},
-  author={[Your Name]},
+  author={[Sarama Shehmir]},
   year={2026},
   publisher={GitHub},
-  howpublished={\url{https://github.com/[your-username]/AARTREC-Attack-Corpus}}
+  howpublished={\url{[https://github.com/[Saramagit]/AARTREC-Attack-Corpus](https://github.com/Saramagit/AARTREC_Attack_Corpus/)}}
 }
 ```
 
