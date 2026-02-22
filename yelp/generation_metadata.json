@@ -1,0 +1,68 @@
+{
+  "start_time": "2026-02-22T09:51:23.545341",
+  "config": "configs/distributed_4k.yaml",
+  "dataset": "yelp",
+  "seed": 42,
+  "estimates": {
+    "total_attacks": 1280,
+    "rounds": 8,
+    "candidates_per_round": 160,
+    "total_input_tokens": 192000,
+    "total_output_tokens": 102400,
+    "estimated_cost": 11.904,
+    "estimated_hours": 0.8888888888888888,
+    "model": "gpt-4"
+  },
+  "categories": [
+    "direct_injection",
+    "persona_hijacking",
+    "jailbreak_templates",
+    "indirect_injection",
+    "context_smuggling",
+    "few_shot_poisoning",
+    "encoding_obfuscation",
+    "adversarial_suffix",
+    "payload_splitting",
+    "semantic_manipulation",
+    "cross_domain_transfer",
+    "chain_of_thought_manipulation",
+    "goal_hijacking",
+    "privilege_escalation",
+    "recursive_injection",
+    "multi_turn_social_engineering"
+  ],
+  "layer_summary": {
+    "Instruction-Level": [
+      "direct_injection",
+      "persona_hijacking",
+      "jailbreak_templates"
+    ],
+    "Context-Level": [
+      "indirect_injection",
+      "context_smuggling",
+      "few_shot_poisoning"
+    ],
+    "Token-Level": [
+      "encoding_obfuscation",
+      "adversarial_suffix"
+    ],
+    "Multi-Turn Level": [
+      "payload_splitting"
+    ],
+    "Representation-Level": [
+      "semantic_manipulation",
+      "cross_domain_transfer"
+    ],
+    "Reasoning-Level": [
+      "chain_of_thought_manipulation"
+    ],
+    "Objective-Level": [
+      "goal_hijacking"
+    ],
+    "Agent-Level": [
+      "privilege_escalation",
+      "recursive_injection",
+      "multi_turn_social_engineering"
+    ]
+  }
+}

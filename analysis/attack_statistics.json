@@ -1,0 +1,626 @@
+{
+  "amazon": {
+    "by_category": {
+      "direct_injection": {
+        "total": 44,
+        "bypasses": 2,
+        "defense_evasion": 44,
+        "successful_manipulation": 2,
+        "avg_rds": 0.013636363636363637
+      },
+      "persona_hijacking": {
+        "total": 54,
+        "bypasses": 3,
+        "defense_evasion": 54,
+        "successful_manipulation": 3,
+        "avg_rds": 0.014814814814814815
+      },
+      "jailbreak_templates": {
+        "total": 70,
+        "bypasses": 0,
+        "defense_evasion": 70,
+        "successful_manipulation": 0,
+        "avg_rds": -0.012857142857142859
+      },
+      "indirect_injection": {
+        "total": 17,
+        "bypasses": 0,
+        "defense_evasion": 17,
+        "successful_manipulation": 0,
+        "avg_rds": -0.029411764705882353
+      },
+      "context_smuggling": {
+        "total": 6,
+        "bypasses": 0,
+        "defense_evasion": 6,
+        "successful_manipulation": 0,
+        "avg_rds": -0.15
+      },
+      "few_shot_poisoning": {
+        "total": 9,
+        "bypasses": 1,
+        "defense_evasion": 9,
+        "successful_manipulation": 1,
+        "avg_rds": 0.05555555555555555
+      },
+      "encoding_obfuscation": {
+        "total": 28,
+        "bypasses": 0,
+        "defense_evasion": 28,
+        "successful_manipulation": 0,
+        "avg_rds": -0.024999999999999998
+      },
+      "adversarial_suffix": {
+        "total": 74,
+        "bypasses": 0,
+        "defense_evasion": 74,
+        "successful_manipulation": 0,
+        "avg_rds": 0.0
+      },
+      "payload_splitting": {
+        "total": 30,
+        "bypasses": 2,
+        "defense_evasion": 30,
+        "successful_manipulation": 2,
+        "avg_rds": -0.0033333333333333344
+      },
+      "semantic_manipulation": {
+        "total": 26,
+        "bypasses": 1,
+        "defense_evasion": 26,
+        "successful_manipulation": 1,
+        "avg_rds": 0.015384615384615385
+      },
+      "cross_domain_transfer": {
+        "total": 63,
+        "bypasses": 2,
+        "defense_evasion": 63,
+        "successful_manipulation": 2,
+        "avg_rds": 0.009523809523809525
+      },
+      "chain_of_thought_manipulation": {
+        "total": 57,
+        "bypasses": 1,
+        "defense_evasion": 57,
+        "successful_manipulation": 1,
+        "avg_rds": -0.028070175438596492
+      },
+      "goal_hijacking": {
+        "total": 47,
+        "bypasses": 2,
+        "defense_evasion": 47,
+        "successful_manipulation": 2,
+        "avg_rds": -0.012765957446808512
+      },
+      "privilege_escalation": {
+        "total": 72,
+        "bypasses": 1,
+        "defense_evasion": 72,
+        "successful_manipulation": 1,
+        "avg_rds": -0.0013888888888888879
+      },
+      "recursive_injection": {
+        "total": 38,
+        "bypasses": 2,
+        "defense_evasion": 38,
+        "successful_manipulation": 2,
+        "avg_rds": 0.02368421052631579
+      },
+      "multi_turn_social_engineering": {
+        "total": 13,
+        "bypasses": 0,
+        "defense_evasion": 13,
+        "successful_manipulation": 0,
+        "avg_rds": -0.03076923076923077
+      }
+    },
+    "by_layer": {
+      "Instruction-Level": {
+        "total": 168,
+        "bypasses": 5,
+        "defense_evasion": 168
+      },
+      "Context-Level": {
+        "total": 32,
+        "bypasses": 1,
+        "defense_evasion": 32
+      },
+      "Token-Level": {
+        "total": 102,
+        "bypasses": 0,
+        "defense_evasion": 102
+      },
+      "Multi-Turn Level": {
+        "total": 30,
+        "bypasses": 2,
+        "defense_evasion": 30
+      },
+      "Representation-Level": {
+        "total": 89,
+        "bypasses": 3,
+        "defense_evasion": 89
+      },
+      "Reasoning-Level": {
+        "total": 57,
+        "bypasses": 1,
+        "defense_evasion": 57
+      },
+      "Objective-Level": {
+        "total": 47,
+        "bypasses": 2,
+        "defense_evasion": 47
+      },
+      "Agent-Level": {
+        "total": 123,
+        "bypasses": 3,
+        "defense_evasion": 123
+      }
+    },
+    "by_round": {
+      "1": {
+        "total": 123,
+        "bypasses": 6,
+        "defense_evasion": 123,
+        "avg_rds": -0.0008130081300813006
+      },
+      "2": {
+        "total": 102,
+        "bypasses": 1,
+        "defense_evasion": 102,
+        "avg_rds": -0.008823529411764706
+      },
+      "3": {
+        "total": 86,
+        "bypasses": 3,
+        "defense_evasion": 86,
+        "avg_rds": -0.012790697674418604
+      },
+      "4": {
+        "total": 75,
+        "bypasses": 3,
+        "defense_evasion": 75,
+        "avg_rds": 0.008
+      },
+      "5": {
+        "total": 75,
+        "bypasses": 2,
+        "defense_evasion": 75,
+        "avg_rds": 0.0013333333333333335
+      },
+      "6": {
+        "total": 69,
+        "bypasses": 1,
+        "defense_evasion": 69,
+        "avg_rds": -0.005797101449275362
+      },
+      "7": {
+        "total": 65,
+        "bypasses": 1,
+        "defense_evasion": 65,
+        "avg_rds": -0.003076923076923077
+      },
+      "8": {
+        "total": 53,
+        "bypasses": 0,
+        "defense_evasion": 53,
+        "avg_rds": 0.0
+      }
+    },
+    "total_attacks": 648,
+    "total_bypasses": 17
+  },
+  "movielens": {
+    "by_category": {
+      "direct_injection": {
+        "total": 32,
+        "bypasses": 1,
+        "defense_evasion": 32,
+        "successful_manipulation": 1,
+        "avg_rds": 0.0031250000000000028
+      },
+      "persona_hijacking": {
+        "total": 55,
+        "bypasses": 1,
+        "defense_evasion": 55,
+        "successful_manipulation": 1,
+        "avg_rds": -0.014545454545454545
+      },
+      "jailbreak_templates": {
+        "total": 79,
+        "bypasses": 2,
+        "defense_evasion": 79,
+        "successful_manipulation": 2,
+        "avg_rds": 0.008860759493670886
+      },
+      "indirect_injection": {
+        "total": 61,
+        "bypasses": 0,
+        "defense_evasion": 61,
+        "successful_manipulation": 0,
+        "avg_rds": -0.013114754098360656
+      },
+      "context_smuggling": {
+        "total": 2,
+        "bypasses": 0,
+        "defense_evasion": 2,
+        "successful_manipulation": 0,
+        "avg_rds": 0.0
+      },
+      "few_shot_poisoning": {
+        "total": 15,
+        "bypasses": 0,
+        "defense_evasion": 15,
+        "successful_manipulation": 0,
+        "avg_rds": 0.0
+      },
+      "encoding_obfuscation": {
+        "total": 25,
+        "bypasses": 1,
+        "defense_evasion": 25,
+        "successful_manipulation": 1,
+        "avg_rds": -0.003999999999999999
+      },
+      "adversarial_suffix": {
+        "total": 77,
+        "bypasses": 1,
+        "defense_evasion": 77,
+        "successful_manipulation": 1,
+        "avg_rds": -0.0012987012987012985
+      },
+      "payload_splitting": {
+        "total": 31,
+        "bypasses": 2,
+        "defense_evasion": 31,
+        "successful_manipulation": 2,
+        "avg_rds": -0.0032258064516129024
+      },
+      "semantic_manipulation": {
+        "total": 22,
+        "bypasses": 0,
+        "defense_evasion": 22,
+        "successful_manipulation": 0,
+        "avg_rds": -0.03636363636363637
+      },
+      "cross_domain_transfer": {
+        "total": 73,
+        "bypasses": 3,
+        "defense_evasion": 73,
+        "successful_manipulation": 3,
+        "avg_rds": 7.604267291953127e-19
+      },
+      "chain_of_thought_manipulation": {
+        "total": 56,
+        "bypasses": 2,
+        "defense_evasion": 56,
+        "successful_manipulation": 2,
+        "avg_rds": -0.0017857142857142852
+      },
+      "goal_hijacking": {
+        "total": 58,
+        "bypasses": 0,
+        "defense_evasion": 58,
+        "successful_manipulation": 0,
+        "avg_rds": -0.022413793103448276
+      },
+      "privilege_escalation": {
+        "total": 73,
+        "bypasses": 2,
+        "defense_evasion": 73,
+        "successful_manipulation": 2,
+        "avg_rds": 0.01780821917808219
+      },
+      "recursive_injection": {
+        "total": 22,
+        "bypasses": 1,
+        "defense_evasion": 22,
+        "successful_manipulation": 1,
+        "avg_rds": 0.027272727272727275
+      },
+      "multi_turn_social_engineering": {
+        "total": 16,
+        "bypasses": 1,
+        "defense_evasion": 16,
+        "successful_manipulation": 1,
+        "avg_rds": 0.0
+      }
+    },
+    "by_layer": {
+      "Instruction-Level": {
+        "total": 166,
+        "bypasses": 4,
+        "defense_evasion": 166
+      },
+      "Context-Level": {
+        "total": 78,
+        "bypasses": 0,
+        "defense_evasion": 78
+      },
+      "Token-Level": {
+        "total": 102,
+        "bypasses": 2,
+        "defense_evasion": 102
+      },
+      "Multi-Turn Level": {
+        "total": 31,
+        "bypasses": 2,
+        "defense_evasion": 31
+      },
+      "Representation-Level": {
+        "total": 95,
+        "bypasses": 3,
+        "defense_evasion": 95
+      },
+      "Reasoning-Level": {
+        "total": 56,
+        "bypasses": 2,
+        "defense_evasion": 56
+      },
+      "Objective-Level": {
+        "total": 58,
+        "bypasses": 0,
+        "defense_evasion": 58
+      },
+      "Agent-Level": {
+        "total": 111,
+        "bypasses": 4,
+        "defense_evasion": 111
+      }
+    },
+    "by_round": {
+      "1": {
+        "total": 123,
+        "bypasses": 2,
+        "defense_evasion": 123,
+        "avg_rds": -0.01951219512195122
+      },
+      "2": {
+        "total": 100,
+        "bypasses": 2,
+        "defense_evasion": 100,
+        "avg_rds": -0.013
+      },
+      "3": {
+        "total": 95,
+        "bypasses": 2,
+        "defense_evasion": 95,
+        "avg_rds": -0.008421052631578947
+      },
+      "4": {
+        "total": 81,
+        "bypasses": 1,
+        "defense_evasion": 81,
+        "avg_rds": 0.0049382716049382715
+      },
+      "5": {
+        "total": 77,
+        "bypasses": 5,
+        "defense_evasion": 77,
+        "avg_rds": 0.031168831168831172
+      },
+      "6": {
+        "total": 73,
+        "bypasses": 3,
+        "defense_evasion": 73,
+        "avg_rds": -0.002739726027397259
+      },
+      "7": {
+        "total": 77,
+        "bypasses": 1,
+        "defense_evasion": 77,
+        "avg_rds": 0.0025974025974025974
+      },
+      "8": {
+        "total": 71,
+        "bypasses": 1,
+        "defense_evasion": 71,
+        "avg_rds": 0.004225352112676056
+      }
+    },
+    "total_attacks": 697,
+    "total_bypasses": 17
+  },
+  "yelp": {
+    "by_category": {
+      "direct_injection": {
+        "total": 49,
+        "bypasses": 1,
+        "defense_evasion": 49,
+        "successful_manipulation": 1,
+        "avg_rds": 0.004081632653061225
+      },
+      "persona_hijacking": {
+        "total": 44,
+        "bypasses": 1,
+        "defense_evasion": 44,
+        "successful_manipulation": 1,
+        "avg_rds": 0.020454545454545454
+      },
+      "jailbreak_templates": {
+        "total": 56,
+        "bypasses": 0,
+        "defense_evasion": 55,
+        "successful_manipulation": 0,
+        "avg_rds": -0.012499999999999999
+      },
+      "indirect_injection": {
+        "total": 55,
+        "bypasses": 1,
+        "defense_evasion": 55,
+        "successful_manipulation": 1,
+        "avg_rds": 0.0036363636363636364
+      },
+      "context_smuggling": {
+        "total": 14,
+        "bypasses": 0,
+        "defense_evasion": 14,
+        "successful_manipulation": 0,
+        "avg_rds": 0.0
+      },
+      "few_shot_poisoning": {
+        "total": 9,
+        "bypasses": 1,
+        "defense_evasion": 9,
+        "successful_manipulation": 1,
+        "avg_rds": -0.05555555555555555
+      },
+      "encoding_obfuscation": {
+        "total": 30,
+        "bypasses": 0,
+        "defense_evasion": 30,
+        "successful_manipulation": 0,
+        "avg_rds": -0.01
+      },
+      "adversarial_suffix": {
+        "total": 56,
+        "bypasses": 1,
+        "defense_evasion": 56,
+        "successful_manipulation": 1,
+        "avg_rds": 0.010714285714285713
+      },
+      "payload_splitting": {
+        "total": 50,
+        "bypasses": 1,
+        "defense_evasion": 50,
+        "successful_manipulation": 1,
+        "avg_rds": 0.01
+      },
+      "semantic_manipulation": {
+        "total": 49,
+        "bypasses": 2,
+        "defense_evasion": 49,
+        "successful_manipulation": 2,
+        "avg_rds": 0.0163265306122449
+      },
+      "cross_domain_transfer": {
+        "total": 40,
+        "bypasses": 0,
+        "defense_evasion": 40,
+        "successful_manipulation": 0,
+        "avg_rds": -0.02
+      },
+      "chain_of_thought_manipulation": {
+        "total": 34,
+        "bypasses": 0,
+        "defense_evasion": 34,
+        "successful_manipulation": 0,
+        "avg_rds": 0.0
+      },
+      "goal_hijacking": {
+        "total": 43,
+        "bypasses": 0,
+        "defense_evasion": 43,
+        "successful_manipulation": 0,
+        "avg_rds": -0.044186046511627906
+      },
+      "privilege_escalation": {
+        "total": 56,
+        "bypasses": 0,
+        "defense_evasion": 56,
+        "successful_manipulation": 0,
+        "avg_rds": -0.005357142857142857
+      },
+      "recursive_injection": {
+        "total": 48,
+        "bypasses": 2,
+        "defense_evasion": 48,
+        "successful_manipulation": 2,
+        "avg_rds": 0.00625
+      },
+      "multi_turn_social_engineering": {
+        "total": 21,
+        "bypasses": 0,
+        "defense_evasion": 21,
+        "successful_manipulation": 0,
+        "avg_rds": 0.0
+      }
+    },
+    "by_layer": {
+      "Instruction-Level": {
+        "total": 149,
+        "bypasses": 2,
+        "defense_evasion": 148
+      },
+      "Context-Level": {
+        "total": 78,
+        "bypasses": 2,
+        "defense_evasion": 78
+      },
+      "Token-Level": {
+        "total": 86,
+        "bypasses": 1,
+        "defense_evasion": 86
+      },
+      "Multi-Turn Level": {
+        "total": 50,
+        "bypasses": 1,
+        "defense_evasion": 50
+      },
+      "Representation-Level": {
+        "total": 89,
+        "bypasses": 2,
+        "defense_evasion": 89
+      },
+      "Reasoning-Level": {
+        "total": 34,
+        "bypasses": 0,
+        "defense_evasion": 34
+      },
+      "Objective-Level": {
+        "total": 43,
+        "bypasses": 0,
+        "defense_evasion": 43
+      },
+      "Agent-Level": {
+        "total": 125,
+        "bypasses": 2,
+        "defense_evasion": 125
+      }
+    },
+    "by_round": {
+      "1": {
+        "total": 134,
+        "bypasses": 3,
+        "defense_evasion": 134,
+        "avg_rds": 0.005970149253731343
+      },
+      "2": {
+        "total": 125,
+        "bypasses": 3,
+        "defense_evasion": 125,
+        "avg_rds": 0.0048
+      },
+      "3": {
+        "total": 116,
+        "bypasses": 1,
+        "defense_evasion": 116,
+        "avg_rds": -0.001724137931034483
+      },
+      "4": {
+        "total": 123,
+        "bypasses": 0,
+        "defense_evasion": 123,
+        "avg_rds": -0.0065040650406504065
+      },
+      "5": {
+        "total": 86,
+        "bypasses": 2,
+        "defense_evasion": 85,
+        "avg_rds": -0.0023255813953488367
+      },
+      "6": {
+        "total": 36,
+        "bypasses": 0,
+        "defense_evasion": 36,
+        "avg_rds": -0.030555555555555555
+      },
+      "7": {
+        "total": 34,
+        "bypasses": 1,
+        "defense_evasion": 34,
+        "avg_rds": -0.002941176470588235
+      }
+    },
+    "total_attacks": 654,
+    "total_bypasses": 10
+  }
+}
