@@ -233,7 +233,7 @@ If you use this corpus in your research, please cite:
 ```bibtex
 @dataset{aartrec2026,
   title={AARTREC: Adversarial Attack Repository for Testing Robustness of Recommender Systems},
-  author={[Sarama Shehmir]},
+  author={[Sarama Shehmir, Rasha Kashef]},
   year={2026},
   publisher={GitHub},
   howpublished={\url{[https://github.com/[Saramagit]/AARTREC-Attack-Corpus](https://github.com/Saramagit/AARTREC_Attack_Corpus/)}}
@@ -305,8 +305,8 @@ SOFTWARE.
 ## 📧 Contact
 
 For questions, issues, or collaborations:
-- **GitHub Issues**: [Open an issue](https://github.com/[your-username]/AARTREC-Attack-Corpus/issues)
-- **Email**: [your-email@domain.com]
+- **GitHub Issues**: [Open an issue](https://github.com/[Saramagit]/AARTREC-Attack-Corpus/issues)
+- **Email**: [sarama.shehmir@torontomu.ca]
 
 ---
 
